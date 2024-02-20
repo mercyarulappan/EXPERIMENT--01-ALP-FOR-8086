@@ -1,11 +1,10 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
 
+Name : MERCY A
 
+Reg no: 212223110027
 
-
+Date of experiment : 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -78,26 +77,67 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
+```
+org 100h
+mov ax,2356h;
+mov bx,5498h;
+add ax,bx;
+mov [1234h],ax;
+ret
+```
 
 ## Output  
+
+![add](https://github.com/mercyarulappan/EXPERIMENT--01-ALP-FOR-8086/assets/149233730/575cab38-8499-4095-ae79-c6d4e26e334a)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
- 
+
+```
+org 100h
+mov ax,9876h;
+mov bx,3456h;
+sub ax,bx;
+mov [8989h],ax;
+ret
+```
+
 ## Output  
+
+![sub](https://github.com/mercyarulappan/EXPERIMENT--01-ALP-FOR-8086/assets/149233730/686911c1-6078-4467-973d-a883f57a5861)
+
+
 ## Multiplication alp 
- ## Output  
+```
+org 100h
+mov ax,457h;
+mov bx,109h;
+mul bx;
+mov [4321h],ax;
+ret
+```
+## Output  
+
+![mul](https://github.com/mercyarulappan/EXPERIMENT--01-ALP-FOR-8086/assets/149233730/e745f0b7-9608-4d17-b936-4cbd481cbfbf)
 
 
 ## Division alp 
-
+```
+org 100h
+mov ax,600h;
+mov bx,200h;
+div bx;
+mov [9999h],ax;
+ret
+```
 ## Output  
+
+![div](https://github.com/mercyarulappan/EXPERIMENT--01-ALP-FOR-8086/assets/149233730/a15b872c-8f17-4a51-acf4-1130d4074d38)
 
 
 ## Result :
  
-
+Thus a program on ALP for the fundamental arithmetic and logical operations is done successful.
 
 
 

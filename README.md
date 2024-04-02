@@ -1,10 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
 
-Name : MERCY A
-
-Reg no: 212223110027
-
-Date of experiment : 
+#### Name : MERCY A
+#### Reg no: 212223110027
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 

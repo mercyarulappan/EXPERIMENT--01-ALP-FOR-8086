@@ -98,6 +98,50 @@ ret
 
 ![div](https://github.com/mercyarulappan/EXPERIMENT--01-ALP-FOR-8086/assets/149233730/a15b872c-8f17-4a51-acf4-1130d4074d38)
 
+## Programs for logical operations
+## AND
+```
+org 100h
+mov bx,1000h;
+and bx,1111h;
+mov [0040h+02],bx;
+ret
+```
+![image](https://github.com/mercyarulappan/EXPERIMENT--01-ALP-FOR-8086/assets/149233730/a1038f98-8722-47b4-8a84-19eb85469e46)
+
+## OR
+```
+org 100h
+mov ax,[0040h+06];
+mov bx,1000h;
+or ax,bx;
+mov [0040h+02],ax;
+ret
+
+```
+![image](https://github.com/mercyarulappan/EXPERIMENT--01-ALP-FOR-8086/assets/149233730/424136d0-fde4-4bf9-ae75-6dc22136022d)
+
+## NOT
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+not al;
+mov [0040h+04],ax;
+ret
+```
+![image](https://github.com/mercyarulappan/EXPERIMENT--01-ALP-FOR-8086/assets/149233730/c84a76b4-1946-4ac5-8573-d0703a0227fd)
+
+## XOR
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+xor ax,bx;
+mov [0040h+04],ax;
+ret
+```
+![image](https://github.com/mercyarulappan/EXPERIMENT--01-ALP-FOR-8086/assets/149233730/b487a6cc-aa01-4eeb-a86c-7a82813e7bde)
 
 ## Result :
  
